@@ -31,12 +31,12 @@
             <div class="item"
                  @click="go('/add/add')">
               <img src="@/assets/icon1.png">
-              New to the Conference
+              Create a New Meeting
             </div>
             <div class="item"
                  @click="go('/user/list?type=add')">
               <img src="@/assets/icon2.png">
-              User additions
+              Add User
             </div>
           </div>
         </div>

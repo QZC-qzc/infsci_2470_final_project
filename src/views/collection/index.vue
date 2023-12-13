@@ -18,7 +18,7 @@
                              @confirm="cancelCollect(item)">
                 <el-button type="text"
                            slot="reference"
-                           class="button">cancel collection</el-button>
+                           class="button">Cancel collection</el-button>
               </el-popconfirm>
             </div>
           </div>

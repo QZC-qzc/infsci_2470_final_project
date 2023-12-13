@@ -6,21 +6,21 @@
              ref="form"
              label-width="150px"
              style="width: 60%;">
-      <el-form-item label="title"
+      <el-form-item label="Title"
                     prop="title">
         <el-input v-model="form.title"
                   placeholder="please input the meeting title"
                   clearable>
         </el-input>
       </el-form-item>
-      <el-form-item label="video"
+      <el-form-item label="Video"
                     prop="video">
         <el-input v-model="form.video"
                   placeholder="please input the video's url"
                   clearable>
         </el-input>
       </el-form-item>
-      <el-form-item label="upload the video"
+      <el-form-item label="Upload the video"
                     prop="avatar">
         <el-upload action=""
                    :limit="1"
@@ -32,17 +32,17 @@
         </el-upload>
       </el-form-item>
 
-      <el-form-item label="img"
+      <el-form-item label="Img"
                     prop="img">
         <el-input v-model="form.img"
                   placeholder="please input the image's url"
                   clearable>
         </el-input>
       </el-form-item>
-      <el-form-item label="alert rule"
+      <el-form-item label="Repeat rule"
                     prop="alertRule">
         <el-select v-model="form.alertRule"
-                   placeholder="please input the alert rule"
+                   placeholder="please input the Repeat rule"
                    style="width: 100%">
           <el-option v-for="(item) in Object.keys(alertRules)"
                      :key="item"
@@ -51,7 +51,7 @@
           </el-option>
         </el-select>
       </el-form-item>
-      <el-form-item label="participant"
+      <el-form-item label="Participant"
                     prop="peoples">
         <div>
           <el-button size="small"
@@ -68,7 +68,7 @@
         </div>
 
       </el-form-item>
-      <el-form-item label="time"
+      <el-form-item label="Time"
                     prop="time">
         <el-col :span="11">
           <el-date-picker type="date"
@@ -89,21 +89,21 @@
         </el-col>
 
       </el-form-item>
-      <el-form-item label="presiding officer"
+      <el-form-item label="Meeting host"
                     prop="take">
         <el-input v-model="form.take"
-                  placeholder="please input the presiding officer"
+                  placeholder="please input the meeting host"
                   clearable>
         </el-input>
       </el-form-item>
-      <el-form-item label="Conference venue"
+      <el-form-item label="Meeting address"
                     prop="address">
         <el-input v-model="form.address"
-                  placeholder="please input the Conference venue"
+                  placeholder="please input the Meeting address"
                   clearable>
         </el-input>
       </el-form-item>
-      <el-form-item label="content"
+      <el-form-item label="Content"
                     prop="content">
         <el-input v-model="form.content"
                   type="textarea"

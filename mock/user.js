@@ -99,7 +99,7 @@ Mock.mock('/api/user/login', 'post', (req) => {
   return {
     header: {
       code: 200,
-      message: '账号密码错误'
+      message: 'Account and password do not match'
     },
     body: {}
   }

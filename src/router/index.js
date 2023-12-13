@@ -50,7 +50,7 @@ export const permissionRoutes = [
       {
         path: 'add',
         name: 'add-add',
-        meta: { title: 'Meeting Addition', icon: 'el-icon-circle-plus' },
+        meta: { title: 'Create a New Meeting', icon: 'el-icon-circle-plus' },
         component: () => import('@/views/system/add.vue')
       }
     ]
@@ -79,7 +79,7 @@ export const permissionRoutes = [
       {
         path: 'list',
         name: 'index-list',
-        meta: { title: 'Participation List', icon: 'el-icon-s-grid' },
+        meta: { title: 'Meeting List', icon: 'el-icon-s-grid' },
         component: () => import('@/views/system/index.vue')
       }
     ]
