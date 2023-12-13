@@ -53,7 +53,7 @@
             <el-button type="info"
                        slot="reference"
                        :disabled="scope.row.collect === '2'"
-                       size="small">Collect</el-button>
+                       size="small">Favorite</el-button>
           </el-popconfirm>
 
           <el-popconfirm title="Are you sure you want to publish this meeting?"

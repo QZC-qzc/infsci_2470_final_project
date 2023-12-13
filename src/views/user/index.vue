@@ -32,7 +32,7 @@
       <el-table-column label="operate"
                        width="240">
         <template slot-scope="scope">
-          <el-popconfirm title="do you want to delete the user"
+          <el-popconfirm title="Are you sure you want to delete this account?"
                          @confirm="delet(scope.row)">
             <el-button type="danger"
                        size="small"
@@ -41,13 +41,13 @@
         </template>
       </el-table-column>
     </el-table>
-    <el-dialog title="add user"
+    <el-dialog title="Add user"
                :visible.sync="dialogVisible">
       <el-form :model="form"
                :rules="rules"
                ref="form"
                label-width="100px">
-        <el-form-item label="User Images"
+        <el-form-item label="User Image"
                       prop="avatar">
           <el-upload action=""
                      :limit="1"

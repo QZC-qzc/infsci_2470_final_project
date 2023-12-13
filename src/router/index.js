@@ -125,7 +125,7 @@ export const permissionRoutes = [
       {
         path: 'list',
         name: 'collection-list',
-        meta: { title: 'Collection Management', icon: 'el-icon-s-goods' },
+        meta: { title: 'Favorites Management', icon: 'el-icon-s-goods' },
         component: () => import('@/views/collection/index.vue')
       }
     ]
